@@ -7,6 +7,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+
+  <!-- CSS khusus section Materi PARTISI (boleh dipindah ke style.css) -->
+  <style>
+    #partisi .partisi-intro { max-width: 720px; margin: 0 0 1.8rem; line-height: 1.7; opacity: .85; }
+    #partisi .partisi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; align-items: start; }
+    #partisi .partisi-card h3 { font-size: 1.25rem; margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #f5c518; }
+    #partisi .partisi-card h4 { font-size: 1.02rem; margin: 1.4rem 0 .15rem; }
+    #partisi .partisi-card h4:first-of-type { margin-top: 0; }
+    #partisi .narsum { margin: 0 0 .7rem; font-size: .85rem; opacity: .7; }
+    #partisi .partisi-card p { margin: 0 0 .8rem; line-height: 1.7; font-size: .95rem; }
+    #partisi .partisi-card ul,
+    #partisi .partisi-card ol { margin: 0 0 .9rem; padding-left: 1.2rem; line-height: 1.7; font-size: .95rem; }
+    #partisi .partisi-card li { margin-bottom: .35rem; }
+    #partisi .partisi-card dl { margin: 0 0 .9rem; font-size: .95rem; line-height: 1.7; }
+    #partisi .partisi-card dt { font-weight: 600; margin-top: .6rem; }
+    #partisi .partisi-card dd { margin: .1rem 0 0; }
+    #partisi .partisi-note { border-left: 4px solid #f5c518; background: rgba(245, 197, 24, .12);
+                             padding: .6rem 1rem; margin: 0 0 1rem; border-radius: 0 8px 8px 0; }
+    #partisi .partisi-note p { margin: 0 0 .4rem; }
+    #partisi .partisi-note p:last-child { margin-bottom: 0; }
+    @media (max-width: 900px) { #partisi .partisi-grid { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
 
@@ -23,6 +45,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#partisi">Partisi</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -242,6 +265,93 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Materi PARTISI -->
+  <section id="partisi">
+    <h2 class="section-title"><span>05</span> Materi PARTISI</h2>
+    <p class="partisi-intro">Rangkuman materi PARTISI (Pelatihan Keprofesian dan Etika Mahasiswa Sistem Informasi), mulai dari mengenal HMSI, memahami bidang Sistem Informasi, belajar public speaking, sampai menjaga kesehatan psikologis di masa transisi ke perkuliahan.</p>
+
+    <div class="partisi-grid">
+
+      <!-- Partisi 1 -->
+      <div class="card partisi-card">
+        <h3>Partisi 1</h3>
+
+        <h4>Materi 1: Tentang HMSI</h4>
+        <p class="narsum">Narasumber: Nabil Nur Fauzan</p>
+        <p>HMSI (Himpunan Mahasiswa Sistem Informasi) dibentuk pada <strong>23 Juli 2016</strong> sebagai wadah bagi mahasiswa Sistem Informasi untuk berkumpul, belajar, dan berkembang bersama. Perannya:</p>
+        <ul>
+          <li><strong>Komunikatif:</strong> menjadi sarana komunikasi antara mahasiswa, sesama angkatan, kakak tingkat, dan pihak terkait program studi.</li>
+          <li><strong>Akomodatif:</strong> menampung kebutuhan serta aspirasi mahasiswa Sistem Informasi.</li>
+          <li><strong>Penyambung akademik dan non-akademik:</strong> menghubungkan mahasiswa dengan kegiatan yang mendukung perkuliahan maupun pengembangan diri.</li>
+        </ul>
+        <p>HMSI juga menyalurkan informasi tentang lomba-lomba, sehingga mahasiswa tahu kompetisi apa saja yang sedang dibuka.</p>
+        <div class="partisi-note">
+          <p><strong>Visi dan Misi</strong></p>
+          <p>Mewujudkan mahasiswa Sistem Informasi MIPA yang <strong>inovatif</strong> dan <strong>adaptif</strong>.</p>
+        </div>
+
+        <h4>Materi 2: Esensi Pengkaderan Mahasiswa Sistem Informasi</h4>
+        <p class="narsum">Narasumber: Syukri Mar'am, S.Kom</p>
+        <p>Materi ini membahas esensi pengkaderan yang diwujudkan dalam kegiatan <strong>PARTISI</strong>, yaitu <strong>Pelatihan Keprofesian dan Etika Mahasiswa Sistem Informasi</strong>.</p>
+        <dl>
+          <dt>Pengkaderan</dt>
+          <dd>Proses pembinaan agar mahasiswa baru siap menjadi bagian dari keluarga besar Sistem Informasi dan mampu berkontribusi di dalamnya.</dd>
+          <dt>Keprofesian</dt>
+          <dd>Bekal awal untuk memahami dunia kerja dan profesi di bidang Sistem Informasi.</dd>
+          <dt>Etika</dt>
+          <dd>Sikap, tata krama, dan tanggung jawab yang harus dimiliki mahasiswa, baik di kampus maupun di dunia profesional.</dd>
+        </dl>
+
+        <h4>Materi 3: Sistem Informasi</h4>
+        <p class="narsum">Narasumber: Devi Gusmita</p>
+        <p>Sistem Informasi adalah bidang yang berada di titik temu antara <strong>Teknologi</strong>, <strong>Manajemen</strong>, dan <strong>Bisnis</strong>.</p>
+        <dl>
+          <dt>Teknologi</dt>
+          <dd>Perangkat lunak, basis data, jaringan, dan infrastruktur untuk mengolah informasi.</dd>
+          <dt>Manajemen</dt>
+          <dd>Cara merencanakan, mengatur, dan mengambil keputusan agar sumber daya dan informasi dikelola dengan baik.</dd>
+          <dt>Bisnis</dt>
+          <dd>Pemahaman tentang proses dan kebutuhan organisasi, sehingga teknologi yang dibangun menjawab masalah nyata.</dd>
+        </dl>
+        <p><strong>Etika berkomunikasi di lingkungan perkuliahan:</strong></p>
+        <ul>
+          <li>Perhatikan sopan santun saat menyampaikan gagasan.</li>
+          <li>Berkomunikasi hanya pada jam kerja, kecuali ada keperluan mendesak.</li>
+          <li>Awali dengan salam, sebutkan identitas, sampaikan maksud dengan singkat, lalu akhiri dengan terima kasih.</li>
+        </ul>
+      </div>
+
+      <!-- Partisi 2 -->
+      <div class="card partisi-card">
+        <h3>Partisi 2</h3>
+
+        <h4>Materi 1: Public Speaking</h4>
+        <p class="narsum">Narasumber: Irwansyah</p>
+        <p>Public speaking adalah teknik untuk <strong>memengaruhi pendengar</strong> di hadapan khalayak ramai atau di depan umum. Empat hal yang perlu dijaga:</p>
+        <ol>
+          <li><strong>Penampilan yang rapi</strong> menunjukkan kesiapan dan rasa hormat kepada pendengar.</li>
+          <li><strong>Tata bahasa yang terstruktur</strong> dengan alur jelas (pembuka, isi, penutup) agar mudah diikuti.</li>
+          <li><strong>Kontak mata</strong> membangun kedekatan dengan pendengar.</li>
+          <li><strong>Gesture</strong> yang wajar membuat pendengar nyaman dan lebih percaya pada pembicara.</li>
+        </ol>
+
+        <h4>Materi 2: Psikologi</h4>
+        <p class="narsum">Narasumber: Fitri</p>
+        <p>Menjaga kesehatan psikologis penting, terutama pada <strong>masa transisi dari SMA ke perkuliahan</strong>, karena budaya belajarnya sangat berbeda. Mahasiswa dituntut lebih mandiri dan sangat mungkin mengalami <strong>stres</strong> akibat tekanan perkuliahan. Hal ini wajar, jadi yang penting adalah mengenali tandanya dan tahu cara mengelolanya.</p>
+
+        <p><strong>Kompas Jiwa</strong> adalah cara mengenal diri lebih dalam dengan menuliskan hal-hal yang dialami, lewat lima poin berikut:</p>
+        <ol>
+          <li><strong>Titik Balik.</strong> Peristiwa apa yang pernah mengubah cara pandang atau arah hidupku?</li>
+          <li><strong>Modal Awal.</strong> Apa saja yang sudah kumiliki, baik kemampuan, pengalaman, maupun dukungan orang sekitar?</li>
+          <li><strong>Celah Pertumbuhan.</strong> Bagian mana dari diriku yang masih perlu dikembangkan?</li>
+          <li><strong>Potensi Diri.</strong> Hal apa yang bisa kuraih jika terus mengasah kemampuanku?</li>
+          <li><strong>Arah Hidup.</strong> Ke mana aku ingin melangkah, dan langkah kecil apa yang bisa kumulai sekarang?</li>
+        </ol>
+      </div>
+
     </div>
   </section>
 
